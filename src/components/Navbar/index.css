@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 15%;
+}
+.logo-image {
+  width: 80px;
+  height: 80px;
+  padding-left: 5px;
+}
+.theme-image {
+  width: 40px;
+  height: 40px;
+}
+.home {
+  font-size: 25px;
+  font-weight: bold;
+  color: #171f46;
+}
+.option-cont {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.about {
+  font-size: 25px;
+  font-weight: bold;
+  color: #171f46;
+  margin-left: 25px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+}
+.darkTheme {
+  background-color: #333333;
+}
+.light {
+  color: #dcdcdc;
+}
+.nav-link {
+  text-decoration: none;
+}

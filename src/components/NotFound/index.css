@@ -1,0 +1,25 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.home-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+.home-image {
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .home-image {
+    width: 25%;
+    margin-top: 150px;
+  }
+}
+
+.darkTheme-home {
+  background-color: #000000;
+  background-size: cover;
+}
